@@ -17,9 +17,11 @@ function onload(){
     var parser = new UAParser();
 	var theOS = parser.getOS()
 	const tzid = Intl.DateTimeFormat().resolvedOptions().timeZone;
-	var calendarSRC = "https://calendar.google.com/calendar/embed?src=jo3qbn1o44mc35ah89povfgqdc%40group.calendar.google.com"
+	var calendarSRC = "https://calendar.google.com/calendar/embed?src=dyinglotusphilosophy101%40gmail.com"
 	
-	var webCalURL = "webcal://calendar.google.com/calendar/ical/jo3qbn1o44mc35ah89povfgqdc%40group.calendar.google.com/private-e051bab32c7c9faf808fc1a83edd8a29/basic.ics"
+	var webCalURL = "webcal://calendar.google.com/calendar/ical/dyinglotusphilosophy101%40gmail.com/private-d104855b1e6b7982830b5658d4054d80/basic.ics"
+
+
 	calendarSRC = calendarSRC + "&ctz=" + tzid;
 	document.getElementById('calendar').src = calendarSRC;
 	try{
