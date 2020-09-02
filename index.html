@@ -17,8 +17,9 @@ function onload(){
     var parser = new UAParser();
 	var theOS = parser.getOS()
 	const tzid = Intl.DateTimeFormat().resolvedOptions().timeZone;
-	var calendarSRC = "https://calendar.google.com/calendar/embed?src=buddhism.online.group%40gmail.com"
-	var webCalURL = "webcal://calendar.google.com/calendar/ical/buddhism.online.group%40gmail.com/private-4958f27bd0db06973b33fcb6a28ea88f/basic.ics"
+	var calendarSRC = "https://calendar.google.com/calendar/embed?src=jo3qbn1o44mc35ah89povfgqdc%40group.calendar.google.com"
+	
+	var webCalURL = "webcal://calendar.google.com/calendar/ical/jo3qbn1o44mc35ah89povfgqdc%40group.calendar.google.com/private-e051bab32c7c9faf808fc1a83edd8a29/basic.ics"
 	calendarSRC = calendarSRC + "&ctz=" + tzid;
 	document.getElementById('calendar').src = calendarSRC;
 	try{
