@@ -19,6 +19,7 @@ function onload(){
 	const tzid = Intl.DateTimeFormat().resolvedOptions().timeZone;
 	var calendarSRC = "https://calendar.google.com/calendar/embed?src=dyinglotusphilosophy101%40gmail.com"
 	
+	var subscribweWithGoogle = "https://calendar.google.com/calendar/render?cid=dyinglotusphilosophy101%40gmail.com"
 	var webCalURL = "webcal://calendar.google.com/calendar/ical/dyinglotusphilosophy101%40gmail.com/private-d104855b1e6b7982830b5658d4054d80/basic.ics"
 
 
@@ -42,7 +43,7 @@ function onload(){
 	// }
 
 	document.body.innerHTML += "<a href='" + webCalURL + "'>Subscribe with Apple Calendar</a> \n"
-	document.body.innerHTML += "<a href='" + calendarSRC + "'>Subscribe with Google Calendar</a> \n"
+	document.body.innerHTML += "<a href='" + subscribweWithGoogle + "'>Subscribe with Google Calendar</a> \n"
 }
 </script>
 
